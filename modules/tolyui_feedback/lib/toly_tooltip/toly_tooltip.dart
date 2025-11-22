@@ -767,6 +767,7 @@ class TolyTooltipState extends State<TolyTooltip>
       TargetPlatform.linux ||
       TargetPlatform.windows =>
         24.0,
+      TargetPlatform.ohos ||
       TargetPlatform.android ||
       TargetPlatform.fuchsia ||
       TargetPlatform.iOS =>
@@ -780,6 +781,7 @@ class TolyTooltipState extends State<TolyTooltip>
       TargetPlatform.linux ||
       TargetPlatform.windows =>
         const EdgeInsets.symmetric(horizontal: 8.0, vertical: 4.0),
+      TargetPlatform.ohos ||
       TargetPlatform.android ||
       TargetPlatform.fuchsia ||
       TargetPlatform.iOS =>
@@ -793,6 +795,7 @@ class TolyTooltipState extends State<TolyTooltip>
       TargetPlatform.linux ||
       TargetPlatform.windows =>
         12.0,
+      TargetPlatform.ohos ||
       TargetPlatform.android ||
       TargetPlatform.fuchsia ||
       TargetPlatform.iOS =>
